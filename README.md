@@ -9,4 +9,4 @@ K线技术分析工具，在这个平台上你能够使用c++14编写K线技术�
 ### edit
 ![img](resources/GIF_KTL_EDIT.gif)
 ### recovery
-![img](resources/GIF_KTL_RECOVERY.gif)
+![img](resources/GIF_KTL_RE2.gif)
