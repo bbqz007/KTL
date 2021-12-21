@@ -16,16 +16,16 @@ you can write your algorithms and compare the benchmarks between yours and the n
 ## shortcuts
 ### k line view
 * **`space`**, highlight one chart of polylines outputed by your aglorithm program. repeat this shortcut key, the next polyline would be chosen.
-* **`clt + space`**, highlight one chart of polylines outputed by your aglorithm program, and hide the others.
-* **`clt + B`**, show the render's benchmarks and statistics info. repeat this shortcut key, the next render policy would be chosen.
+* **`ctrl + space`**, highlight one chart of polylines outputed by your aglorithm program, and hide the others.
+* **`ctrl + B`**, show the render's benchmarks and statistics info. repeat this shortcut key, the next render policy would be chosen.
 
 ### aglorithm editor
-* **`clt + Q`**, test the program via the default compiler.
+* **`ctrl + Q`**, test the program via the default compiler.
 * **`alt + Q`**，test the program via an another advanced compiler. this feature needs you download the `resource2-2.pkg`.
-* **`clt + S`**，save current modified program copy, and the `K Line View` could reload results from your new program.
-* **`clt + F`**, search the word selection around the current program copy, and highlight all the matches.
-* **`F3`**, jump to next matching word searched by **`clt + F`**.
-* **`clt + F3`**, jump to previous matching word searched by **`clt + F`**.
+* **`ctrl + S`**，save current modified program copy, and the `K Line View` could reload results from your new program.
+* **`ctrl + F`**, search the word selection around the current program copy, and highlight all the matches.
+* **`F3`**, jump to next matching word searched by **`ctrl + F`**.
+* **`ctrl + F3`**, jump to previous matching word searched by **`ctrl + F`**.
 
 ## programming
 ### functions
