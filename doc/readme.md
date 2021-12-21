@@ -40,7 +40,7 @@ you can write your algorithms and compare the benchmarks between yours and the n
 
 ### classes
 * **`AlgoK`**
-* **`AlgoK::Bench`**, help you the benchmark your algorithms, outputs on the `dbgview` tool.
+* **`AlgoK::Bench`**, help you to benchmark your algorithms, outputs on the `dbgview` tool.
 
 ## openmp
 OpenMP 4.5 supported.
