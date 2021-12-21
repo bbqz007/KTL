@@ -6,6 +6,11 @@ K线技术分析工具，在这个平台上你能够使用c++14编写K线技术�
 
 ----------------------------
 
+### doc
+[doc](https://github.com/bbqz007/KTL/doc/readme.md)
+
+----------------------------
+
 ### release
 [latest release](https://github.com/bbqz007/KTL/blob/master/bin/KTL%20%5Bzhelper.release.20211209%5D.7z)
 
