@@ -5,9 +5,9 @@ a **Candle**stick **T**echnical analysis tool **L**ite for stock market. ability
 K线技术分析工具，在这个平台上你能够使用c++14编写K线技术指标等。
 
 ### What's New
-you can write qt widgets on your custom window using simple syntax powered by [zqt5](https://github.com/bbqz007/zhelper-qt5Widgets).
+you can write **Qt** widgets on your custom window using simple syntax powered by [zqt5](https://github.com/bbqz007/zhelper-qt5Widgets).
 
-你能够通过[zqt5](https://github.com/bbqz007/zhelper-qt5Widgets)简单的语法，编写属于你自己的Qt窗口。
+你能够通过[zqt5](https://github.com/bbqz007/zhelper-qt5Widgets)简单的语法，编写属于你自己的**Qt**窗口。
 
 ----------------------------
 
