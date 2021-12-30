@@ -9,6 +9,11 @@ you can write **Qt** widgets on your custom window using simple syntax powered b
 
 你能够通过[zqt5](https://github.com/bbqz007/zhelper-qt5Widgets)简单的语法，编写属于你自己的**Qt**窗口。
 
+### repo
+home: [github.com/bbqz007/KTL](https://github.com/bbqz007/KTL)
+
+mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
+
 ----------------------------
 
 ### release
