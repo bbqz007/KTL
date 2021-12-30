@@ -12,19 +12,19 @@ you can write **Qt** widgets on your custom window using simple syntax powered b
 ----------------------------
 
 ### release
-[latest release](https://github.com/bbqz007/KTL/blob/master/bin/KTL%20%5Bzhelper.release.20211228%5D.7z)
+[latest release](blob/master/bin/KTL%20%5Bzhelper.release.20211228%5D.7z)
 
 ----------------------------
 
 ### patch
-[resource2-2.pkg](https://github.com/bbqz007/KTL/blob/master/patch/resource2-2.pkg)
+[resource2-2.pkg](blob/master/patch/resource2-2.pkg)
 
-[resource2-3.pkg](https://github.com/bbqz007/KTL/blob/master/patch/resource2-3.pkg)
+[resource2-3.pkg](blob/master/patch/resource2-3.pkg)
 
 ----------------------------
 
 ### doc
-[doc](https://github.com/bbqz007/KTL/tree/master/doc)
+[doc](doc)
 
 ----------------------------
 
