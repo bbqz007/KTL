@@ -12,14 +12,14 @@ you can write **Qt** widgets on your custom window using simple syntax powered b
 ----------------------------
 
 ### release
-[latest release](blob/master/bin/KTL%20%5Bzhelper.release.20211228%5D.7z)
+[latest release](bin/KTL%20%5Bzhelper.release.20211228%5D.7z)
 
 ----------------------------
 
 ### patch
-[resource2-2.pkg](blob/master/patch/resource2-2.pkg)
+[resource2-2.pkg](patch/resource2-2.pkg)
 
-[resource2-3.pkg](blob/master/patch/resource2-3.pkg)
+[resource2-3.pkg](patch/resource2-3.pkg)
 
 ----------------------------
 
