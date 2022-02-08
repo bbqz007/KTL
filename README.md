@@ -32,7 +32,8 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 [doc](doc)
 
 ----------------------------
-
+### QtTool
+![img](resources/GIF_KTL_QT_TOOL.gif)
 ### load
 ![img](resources/GIF_KTL_Load.gif)
 ### edit
