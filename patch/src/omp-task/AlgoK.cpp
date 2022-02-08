@@ -15,68 +15,6 @@
 
 #ifndef _MSC_VER
 
-template<typename R, typename... A>
-R rettype(R(*)(A...))
-{
-	return R();
-}
-
-template<typename C, typename R, typename... A>
-R rettype(R(C::*)(A...))
-{
-	return R();
-}
-
-template<typename C, typename... A>
-int rettype(void(C::*)(A...))
-{
-	return 0;
-}
-
-template<typename R, typename... A>
-R rettype(const std::function<R(A...)>&)
-{
-	return R();
-}
-
-template<typename F, typename R, typename ... Args>
-auto rettype (const F& f, R(F::*)(Args...))
-{
-	return R();
-}
-
-template<typename F>
-auto rettype(const F& f)
-{
-	return rettype(&F::operator());
-}
-
-//typedef typename std::result_of<decltype(lambda)()>::type return_type;
-
-template<typename T>
-struct lambda_traits_helper;  // undefined
-
-// specialize for pointer to member function
-template<typename T, typename Result, typename... Args>
-struct lambda_traits_helper<Result(T::*)(Args...) const>
-{
-    using result_type = Result;
-};
-
-template<typename Func>
-struct lambda_traits 
-    : lambda_traits_helper<decltype(&Func::operator())>
-    // instantiate helper trait with pointer to operator()
-{};
-
-#define rtype(lambda) lambda_traits<decltype(lambda)>::result_type
-
-#define singlepara \
-#pargma omp parallel \
-{ \
-#pragma omp single \
-{
-
 int AlgoK::main()
 { 
 #pragma omp parallel
