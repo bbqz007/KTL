@@ -14,6 +14,8 @@ home: [github.com/bbqz007/KTL](https://github.com/bbqz007/KTL)
 
 mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 
+[blog page](https://www.cnblogs.com/bbqzsl/p/15195253.html)
+
 ----------------------------
 
 ### release
