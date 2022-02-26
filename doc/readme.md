@@ -16,7 +16,7 @@ you can write your algorithms and compare the benchmarks between yours and the n
 ## shortcuts
 ### k line view
 * **`space`**, highlight one chart of polylines outputed by your aglorithm program. repeat this shortcut key, the next polyline would be chosen.
-* **`ctrl + space`**, highlight one chart of polylines outputed by your aglorithm program, and hide the others.
+* **`shift + space`**, highlight one chart of polylines outputed by your aglorithm program, and hide the others.
 * **`ctrl + B`**, show the render's benchmarks and statistics info. repeat this shortcut key, the next render policy would be chosen.
 
 ### aglorithm editor
@@ -35,8 +35,25 @@ you can write your algorithms and compare the benchmarks between yours and the n
 * **`LOW()`**, get the sequence of the low prices.
 * **`VOL()`**, get the sequence of the Volume.
 * **`DATE()`**, get the sequence of the listed dates.
+* **`REF(S, N)`**, the sequence of data referencing to previous days or next days.
 * **`MA(S, N)`**, a native implement of MA algorithm.
 * **`SMA(S, N, M)`**, a native implement of SMA algorithm.
+* **`TMA(S, A, B)`**, a native implement of TMA algorithm.
+* **`AMA(S, A)`**, a native implement of AMA algorithm.
+* **`WMA(S, N)`**, a native implement of WMA algorithm.
+* **`EMA(S, N)`**, a native implement of EMA algorithm.
+* **`MEMA(S, N)`**, a native implement of MEMA algorithm.
+* **`HHV(S, N)`**, a native implement of HHV algorithm.
+* **`LLV(S, N)`**, a native implement of LLV algorithm.
+* **`HOD(S, N)`**, a native implement of HOD algorithm.
+* **`LOD(S, N)`**, a native implement of LOD algorithm.
+* **`DEA(S, SHORT, LONG, MID)`**, a native implement of DEA algorithm.
+* **`MACD(S, SHORT, LONG, MID)`**, a native implement of MACD algorithm.
+* **`MAX(S, S2)`**, a native implement of MAX algorithm.
+* **`MIN(S, S2)`**, a native implement of MIN algorithm.
+* **`ABS(S)`**, a native implement of ABS algorithm.
+* **`ABSDIF(S, S2)`**, a native implement of ABSDIF algorithm.
+* **`IF(B, T, F)`**, a native implement of IF algorithm.
 
 ### classes
 * **`AlgoK`**
