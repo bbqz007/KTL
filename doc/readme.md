@@ -19,7 +19,7 @@ you can write your algorithms and compare the benchmarks between yours and the n
 * **`shift + space`**, highlight one chart of polylines outputed by your aglorithm program, and hide the others.
 * **`ctrl + B`**, show the render's benchmarks and statistics info. repeat this shortcut key, the next render policy would be chosen.
 
-### aglorithm editor
+### coding editor
 * **`ctrl + Q`**, test the program via the default compiler.
 * **`alt + Q`**，test the program via an another advanced compiler. this feature needs you download the `resource2-2.pkg`.
 * **`ctrl + S`**，save current modified program copy, and the `K Line View` could reload results from your new program.
