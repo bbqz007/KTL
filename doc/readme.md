@@ -66,5 +66,7 @@ you can write your algorithms and compare the benchmarks between yours and the n
 ## openmp
 OpenMP 4.5 supported.
 
+[example](https://github.com/bbqz007/KTL/blob/master/patch/src/omp-task/AlgoK.cpp)
+
 ## simd
 SSE3 `tmmintrin.h` supported.
