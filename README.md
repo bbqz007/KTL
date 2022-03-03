@@ -35,7 +35,7 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 
 ----------------------------
 ### QtTool
-![img](resources/GIF_KTL_QT_TOOL.gif)
+![img](resources/GIF_KTL_QT_TOOL2.gif)
 ### compile and load
 ![img](resources/GIF_KTL_Load.gif)
 ### editor
