@@ -5,6 +5,8 @@ a **Candle**stick **T**echnical analysis tool **L**ite for stock market. ability
 K线技术分析工具，在这个平台上你能够使用**c++14**编写K线技术指标等。
 
 ### What's New
+you can use **sqlite3** c apis or my helper **zqlite3** syntax.
+
 you can write **Qt** widgets on your custom window using simple syntax powered by [zqt5](https://github.com/bbqz007/zhelper-qt5Widgets).
 
 你能够通过[zqt5](https://github.com/bbqz007/zhelper-qt5Widgets)简单的语法，编写属于你自己的**Qt**窗口。
@@ -19,7 +21,7 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 ----------------------------
 
 ### release
-[latest release](bin/KTL%20%5Bzhelper.release.20220228%5D.7z)
+[latest release](bin/KTL%20%5Bzhelper.release.20220331%5D.7z)
 
 ----------------------------
 
