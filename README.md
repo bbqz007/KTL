@@ -39,6 +39,8 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 ### QtTool
 ![img](resources/GIF_KTL_QT_TOOL2.gif)
 ![img](resources/GIF_KTL_QT_TOOL2_EDIT.gif)
+### Sqlite3 Stream
+![img](resources/GIF_KTL_ZQLITE3_STREAMING.gif)
 ### compile and load
 ![img](resources/GIF_KTL_Load2022.gif)
 ### editor
