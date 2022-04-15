@@ -3,6 +3,8 @@
 * [programming](#programming)
 * [openmp](#openmp)
 * [simd](#simd)
+* [qt5](#zqt5)
+* [sqlite3](#zqlite3)
 
 you can write your algorithms and compare the benchmarks between yours and the native algorithms.
 
@@ -57,7 +59,14 @@ you can write your algorithms and compare the benchmarks between yours and the n
   * **`ABS(S)`**, a native implement of ABS algorithm.
   * **`ABSDIF(S, S2)`**, a native implement of ABSDIF algorithm.
   * **`IF(B, T, F)`**, a native implement of IF algorithm.
-
+  * **`AVEDEV(S, N)`**, a native implement of AVEDEV algorithm.
+  * **`STD(S, N)`**, a native implement of STD algorithm.
+  * **`STDP(S, N)`**, a native implement of STDP algorithm.
+  * **`STDDEV(S, N)`**, a native implement of STDDEV algorithm.
+  * **`VAR(S, N)`**, a native implement of VAR algorithm.
+  * **`VARP(S, N)`**, a native implement of VARP algorithm.
+  * **`AVEDEV(S, N)`**, a native implement of AVEDEV algorithm.
+ 
 ### classes
 * **`AlgoK`**
 * **`AlgoK::Bench`**, help you to benchmark your algorithms, outputs on the `dbgview` tool.
@@ -70,3 +79,13 @@ OpenMP 4.5 supported.
 
 ## simd
 SSE3 `tmmintrin.h` supported.
+
+## zqt5
+Qt5 Widgets supported.
+
+[zqt5](https://github.com/bbqz007/zhelper-qt5Widgets) is easy syntax for programming with Qt5 Widgets.
+
+## zqlite3
+sqlite3 supported.
+
+[zqlite3](https://github.com/bbqz007/sqlite3zz) is easy syntax for programming with sqlite3 apis. even you do not need to write SQL.
