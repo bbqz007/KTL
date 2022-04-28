@@ -21,7 +21,7 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 ----------------------------
 
 ### release
-[latest release](bin/KTL%20%5Bzhelper.release.20220331%5D.7z)
+[latest release](bin/KTL%20%5Bzhelper.release.20220426%5D.7z)
 
 ----------------------------
 
