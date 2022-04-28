@@ -36,6 +36,8 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 [doc](doc)
 
 ----------------------------
+### Qt+OpenGL
+![img](resources/GIF_KTL_OPENGL_1.gif)
 ### QtTool
 ![img](resources/GIF_KTL_QT_TOOL2.gif)
 ![img](resources/GIF_KTL_QT_TOOL2_EDIT.gif)
