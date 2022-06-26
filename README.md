@@ -39,7 +39,7 @@ mirror: [CN, gitee.com/bbqz007/KTL](https://gitee.com/bbqz007/KTL)
 
 ----------------------------
 ### GPGPU
-![img](resources/GIF_KTL_GPGPU_SHOW.gif)
+![img](resources/GIF_GPGPU_SHOW.gif)
 ### Qt+OpenGL
 ![img](resources/GIF_KTL_OPENGL_1.gif)
 ### QtTool
