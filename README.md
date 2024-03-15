@@ -9,9 +9,9 @@ you can use **OPENGL** to write 3D graphs or **GPGPU** programs.
 
 you can use **sqlite3** c apis or my helper [zqlite3](https://github.com/bbqz007/sqlite3zz) stream style syntax.
 
-you can write **Qt** widgets on your custom window using simple syntax powered by [zqt5](https://github.com/bbqz007/zhelper-qt5Widgets).
+you can write **Qt** widgets on your custom window using simple syntax powered by [zqt5](https://github.com/bbqz007/zqt5).
 
-你能够通过[zqt5](https://github.com/bbqz007/zhelper-qt5Widgets)简单的语法，编写属于你自己的**Qt**窗口。
+你能够通过[zqt5](https://github.com/bbqz007/zqt5)简单的语法，编写属于你自己的**Qt**窗口。
 
 Using SIMD instructions to rewrite built-in formulas for performance optimization.
 
