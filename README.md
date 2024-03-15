@@ -43,7 +43,7 @@ Advanced programming depends to these packages.
 
 ----------------------------
 ### GPGPU
-![img](resources/GIF_GPGPU_SHOW.gif)
+![img](resources/KTL_GPGPU_2024.gif)
 ### Qt+OpenGL
 ![img](resources/GIF_KTL_OPENGL_1.gif)
 ### QtTool
