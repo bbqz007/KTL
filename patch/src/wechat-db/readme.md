@@ -11,7 +11,7 @@ this patch for previewing the MicroMsg (or WeChat) DBs. it require you can get y
 * drag and drop your db file into the AlgoDataTool gui.
 * it shows the tables of a db, when you double click one table name, a popup window shows the rows of the table.
 
-<img src="https://github.com/bbqz007/KTL/blob/master/resources/GIF_KTL_WeChatDb.gif" width="61.8%">
+<img src="/resources/GIF_KTL_WeChatDb.gif" width="61.8%">
 
 # sqlite3.dll
 download from nuget, [native-sqlcipher](https://www.nuget.org/packages/SQLitePCL.native.sqlcipher.windows/0.9.0-pre7).
