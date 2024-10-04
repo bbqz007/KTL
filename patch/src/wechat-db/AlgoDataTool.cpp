@@ -24,11 +24,7 @@ using namespace zhelper::qt5Widgets;
 using namespace zhelper::zqlite3;
 #define tr(str) QObject::tr(str)
 
-/**
- select printf("%06d", code) as CODE, * from lday where date == 20240202
- select printf("%06d", a.code) as CODE, a.*, b.* from lday a left join lma5 b on a.code=b.code and a.date=b.date where a.date = 20240202
-*/
- int load_file(const char* file, std::vector<char>& mem)
+int load_file(const char* file, std::vector<char>& mem)
 {
 	std::shared_ptr<std::ifstream> shrd_if(new std::ifstream);
     std::ifstream& in = *shrd_if.get();
@@ -88,53 +84,6 @@ int AlgoQ::main(QMainWindow* win)
 		auto mainlayout = new QVBoxLayout(p);
 
 		/* -----===== layout the menu =====-------- */
-		
-		// sample: create table
-		if (1)
-		{
-			using namespace zhelper::zqlite3;
-			/** define a table schema */
-			auto schema = make_zqlite3_table(
-				select_para<int>("col_name1"),					// col_name1 INT
-				select_para<double>("col_name2"),					// col_name2 REAL
-				select_para<std::string>("col_vchar_name3"),		// col_vchar_name3 VCHAR
-				select_para<std::vector<char>>("col_blob_name4"), // col_blob_name4 BLOB
-				index_para("col_name1").pkey().asc());			// PRIMARY KEY(col_name1, ASC)
-		
-			schema.open_db("your.db");
-			/** use the schema to create table*/
-			schema.create_table("table_name");
-			schema.close_db();
-		}
-		
-		
-		// sample: upsert
-		if (1)
-		{
-			using namespace zhelper::zqlite3;
-			/** define a table schema or dataset schema  */
-			auto schema = make_zqlite3_table(
-				select_para<int>("col_name1"),
-				select_para<double>("col_name2"),
-				select_para<std::string>("col_vchar_name3"),
-				select_para<std::vector<char>>("col_blob_name4"),
-				index_para("col_name1").pkey().asc());
-		
-			schema.open_db("your.db");
-			/** use the schema to create table*/
-			schema.create_table("table_name");
-			/** use the schema to create a temp row*/
-			auto row_record = schema.create_row();
-			std::get<0>(row_record) = 1;
-			std::get<1>(row_record) = 1.;
-			std::get<2>(row_record) = "upsert 1";
-			/** upsert row into table*/
-			auto oz = schema.upsert_into("table_name");
-			oz.begin_trans();
-			oz << row_record << std::ios_base::end;
-			oz.commit_trans();
-			schema.close_db();
-		}
 		
 		/* -----===== lambda funtions for delegation =====-------- */
 		auto parseZip = [=](QTreeWidget* w, const char* path) {
