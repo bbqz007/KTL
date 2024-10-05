@@ -49,8 +49,19 @@ private:
 #pragma mark - ^_^ wechat hexkey
 #define hexkey "paste your hex key here"
 template<class Tzqlite3_table>
+bool checkif_sqlcipher(Tzqlite3_table& ztbl)
+{
+	auto cmd = "cipher_version";
+	auto iz = ztbl.pragma(cmd);
+	iz >> std::ios::beg;
+	return !iz.eof();
+}
+template<class Tzqlite3_table>
 void WeChat_dbkey(Tzqlite3_table& ztbl)
 {
+	if (!checkif_sqlcipher(ztbl))
+		QMessageBox::critical(NULL, "sqlite3.dll error", "reopen KTL.exe, a non-cipher version sqlite3.dll has been loaded.");
+	
 	std::vector<std::string> cmds = {
 		"hexkey=\""hexkey"\"", 
 		"cipher_hmac_algorithm=HMAC_SHA1",
