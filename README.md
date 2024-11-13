@@ -42,6 +42,9 @@ Advanced programming depends to these packages.
 [doc](doc)
 
 ----------------------------
+### charts
+![img](resources/KTL_chart_1.png)
+----------------------------
 ### GPGPU
 ![img](resources/KTL_GPGPU_2024.gif)
 ### Qt+OpenGL
