@@ -5,6 +5,8 @@ a **Candle**stick **T**echnical analysis tool **L**ite for stock market. ability
 K线技术分析工具，在这个平台上你能够使用**c++14**编写K线技术指标等。
 
 ### What's New
+**cpprest**, **pplx**, **libco(coroutine)**, supported.
+
 you can use **OPENGL** to write 3D graphs or **GPGPU** programs.
 
 you can use **sqlite3** c apis or my helper [zqlite3](https://github.com/bbqz007/sqlite3zz) stream style syntax.
