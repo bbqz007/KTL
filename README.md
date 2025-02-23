@@ -1,6 +1,6 @@
 # KTL
 
-a **Candle**stick **T**echnical analysis tool **L**ite for stock market. ability to use **c++14** even with **simd** and **omp** to edit your technical indicators on this app lite. Advanced programming of **Qt**, **OpenGL**, **GPGPU** and **sqlite3**. newest ability to support **cpprest**, **pplx**, **libco(coroutine)**.
+a **Candle**stick **T**echnical analysis tool **L**ite for stock market. ability to use **c++14** to edit your technical indicators on this app lite. Advanced programming of **Qt**, **OpenGL**, **GPGPU** and **sqlite3**. newest ability to support **cpprest**, **pplx**, **libco(coroutine)**.
 
 K线技术分析工具，在这个平台上你能够使用**c++14**编写K线技术指标等。
 
