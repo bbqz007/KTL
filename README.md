@@ -50,7 +50,7 @@ Advanced programming depends to these packages.
 ----------------------------
 ### cpprest (sina, baidu opendata api)
 ![img](resources/GIF_KTL_sina.gif)
-![img](resources/KTL_KTL_baidu.gif)
+![img](resources/GIF_KTL_baidu.gif)
 ----------------------------
 ### GPGPU
 ![img](resources/KTL_GPGPU_2024.gif)
